@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everwin Tools</title>
+    <link rel="stylesheet" href="/ref-css/contact-us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="brand">Everwin Tools</a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="/index.html">Home</a>
+            <a href="/ref-html/about-us.html">About Us</a>
+            <a href="/ref-html/services.html">Services</a>
+            <a href="/ref-html/product.html">Products</a>
+            <a href="/ref-html/contact-us.html">Contact Us</a>
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </header>
+    <section class="section-main">
+        <h1>Welcome To Everwin Tools</h1>
+    </section>
+    <section class="section-two">
+        <h2>Protect Rainforests</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.</p>
+        <h2>Protect Nature</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illum consectetur dicta aspernatur, deserunt officiis maiores, explicabo recusandae a corrupti id facere, doloremque delectus sequi enim natus ab aut tenetur.</p>
+    </section>
+    <footer class="footer">
+        <dive class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>everwin tools</h4>
+                    <ul>
+                        <li><a href="/ref-html/about-us.html">about us</a></li>
+                        <li><a href="/ref-html/services.html">our services</a></li>
+                        <li><a href="/ref-html/privacy-policy.html">privacy policy</a></li>
+                        <li><a href="/ref-html/affiliate-program.html">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="/ref-html/FAQ.html">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment option</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="http://www.Facebook.com/everwintools" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="http://www.Twitter.com/everwintools" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="http://www.Instagram.com/everwintools" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="http://www.Linkdin.com/everwintools" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </dive>
+    </footer>
+    
+    <script type="text/javascript">
+        //javascript for navigation bar effect on scroll
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        //javascript for responsive navigation sidebar menu
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+
+        menuBtn.addEventListener("click", () => {
+            menu.classList.add('active');
+        });
+
+        closeBtn.addEventListener("click", () => {
+            menu.classList.remove('active');
+        });
+    </script>
+</body>
+</html>
